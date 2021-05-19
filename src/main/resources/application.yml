@@ -1,0 +1,18 @@
+
+server:
+  port: 8224
+
+
+spring: 
+  jpa:
+    database: postgresql
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+      
+  datasource:
+    platform: postgres
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/sampledb
+    username: postgres
+    password: admin123
